@@ -1,6 +1,6 @@
 ## start up
 ```
-./a.out --kubeconfig=/Users/xuzeng/.kube/dev-config --alsologtostderr=true
+./a.out --kubeconfig=<your-kube-config-file-path> --alsologtostderr=true
 ```
 ## CRD
 We can create CRD in k8s directly without any code deploying in k8s, 
